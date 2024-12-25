@@ -9,7 +9,7 @@ function Header() {
         {name:'STORE LOCATION'},
     ]
   return (
-    <div className='flex p-8 px-10 xl:px-14 justify-between items-center'>
+    <div className='flex p-8 px-10 xl:px-14 justify-center gap-16 items-center'>
       <div className='cursor-pointer'>
         <img src="/assets/images/logo.png" alt="image" width="85" height="32"/> 
       </div>

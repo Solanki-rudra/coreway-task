@@ -8,12 +8,13 @@ import Explore from '../components/explore-page/Explore'
 import Pairing from '../components/the-perfect-pairing/Pairing'
 import ProductOfMonth from '../components/product-of-the-month/ProductOfMonth'
 import Testimonials from '../components/testimonials/Testimonials'
+import Slider from '../components/landing-page/Slider'
 
 function HomePage() {
   return (
     <>
       <Header />
-      <LandingPage />
+      <Slider />
       <Jewellery jewelleryData={necklaces} title='Necklaces'/>
       <Bracelates bracelets={bracelets} />
       <Jewellery jewelleryData={earrings} title='Earrings'/>
